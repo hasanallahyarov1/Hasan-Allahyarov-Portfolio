@@ -53,5 +53,9 @@ streamlit run streamlit_ner_demo.py
 
 It should open by itself, if no you should go to http://localhost:8501 on your browser
 
+I needed to install this as well, so if it doesn't run and gives an error try to run the code below first:
+
+conda install -c conda-forge streamlit
+
 
 
