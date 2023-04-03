@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NER Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/main.css') }}">
+  </head>
+  <body>
+    <h1>NER Result</h1>
+    <p><strong>Input text:</strong> {{ text }}</p>
+    <div>{{ entities_markup | safe }}</div>
+    <br>
+    <a href="{{ url_for('entities') }}">View all entities</a>
+  </body>
+</html>
